@@ -1,0 +1,3 @@
+SELECT emp.emp_id, emp.emp_name, emp.emp_salary, dept.dept_name
+FROM emp
+JOIN dept ON emp.dept_id = dept.dept_id;
